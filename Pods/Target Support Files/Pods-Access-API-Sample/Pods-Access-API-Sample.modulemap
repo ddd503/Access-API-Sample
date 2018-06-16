@@ -1,0 +1,6 @@
+module Pods_Access_API_Sample [system] {
+  umbrella header "Pods-Access-API-Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}
