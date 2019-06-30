@@ -34,4 +34,3 @@ enum UrlRequester: URLRequestConvertible {
         }
     }
 }
-import Foundation

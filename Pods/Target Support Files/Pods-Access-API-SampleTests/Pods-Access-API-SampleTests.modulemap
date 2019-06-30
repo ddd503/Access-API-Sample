@@ -1,4 +1,4 @@
-module Pods_Access_API_SampleTests [system] {
+module Pods_Access_API_SampleTests {
   umbrella header "Pods-Access-API-SampleTests-umbrella.h"
 
   export *
