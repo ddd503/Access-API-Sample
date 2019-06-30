@@ -5,6 +5,12 @@ target 'Access-API-Sample' do
   inhibit_all_warnings!
   pod 'Alamofire', '~> 5.0.0-beta.5' 
 
+  plugin 'cocoapods-keys', {
+  :project => "Access-API-Sample",
+  :keys => [
+    "FlickrApiKey",
+  ]}
+
   target 'Access-API-SampleTests' do
     inherit! :search_paths
     inhibit_all_warnings!
